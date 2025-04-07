@@ -1,0 +1,63 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-04-06 01:59:40.641] ** ComfyUI startup time: 2025-04-06 01:59:40.641
+[2025-04-06 01:59:40.650] ** Platform: Linux
+[2025-04-06 01:59:40.650] ** Python version: 3.12.9 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:56:27) [GCC 11.2.0]
+[2025-04-06 01:59:40.650] ** Python executable: /home/gongms/miniconda3/envs/comfyui/bin/python
+[2025-04-06 01:59:40.650] ** ComfyUI Path: /home/gongms/runpod_serverless_test
+[2025-04-06 01:59:40.650] ** ComfyUI Base Folder Path: /home/gongms/runpod_serverless_test
+[2025-04-06 01:59:40.650] ** User directory: /home/gongms/runpod_serverless_test/user
+[2025-04-06 01:59:40.650] ** ComfyUI-Manager config path: /home/gongms/runpod_serverless_test/user/default/ComfyUI-Manager/config.ini
+[2025-04-06 01:59:40.650] ** Log path: /home/gongms/runpod_serverless_test/user/comfyui.log
+
+Prestartup times for custom nodes:
+[2025-04-06 01:59:49.063]   35.5 seconds: /home/gongms/runpod_serverless_test/custom_nodes/comfyui-manager
+[2025-04-06 01:59:49.063] 
+[2025-04-06 01:59:50.253] Checkpoint files will always be loaded safely.
+[2025-04-06 01:59:51.036] Total VRAM 24217 MB, total RAM 515686 MB
+[2025-04-06 01:59:51.036] pytorch version: 2.6.0+cu124
+[2025-04-06 01:59:51.036] Set vram state to: NORMAL_VRAM
+[2025-04-06 01:59:51.038] Device: cuda:0 NVIDIA GeForce RTX 4090 : native
+[2025-04-06 02:00:39.778] Using pytorch attention
+[2025-04-06 02:01:39.174] Could not import load_extra_path_config from main.py. Looking in utils.extra_config instead.
+[2025-04-06 02:01:39.204] Could not find the extra_model_paths config file.
+[2025-04-06 02:01:39.270] ComfyUI frontend version: 1.14.6
+[2025-04-06 02:01:39.295] [Prompt Server] web root: /home/gongms/miniconda3/envs/comfyui/lib/python3.12/site-packages/comfyui_frontend_package/static
+[2025-04-06 02:02:00.529] ### Loading: ComfyUI-Manager (V3.31.9)
+[2025-04-06 02:02:00.529] [ComfyUI-Manager] network_mode: public
+[2025-04-06 02:02:00.626] ### ComfyUI Revision: 1 on 'main' [1dfad5d0] | Released on '2025-04-05'
+[2025-04-06 02:02:00.881] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-04-06 02:02:00.991] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-04-06 02:02:01.058] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-04-06 02:02:01.115] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-04-06 02:02:01.580] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-04-06 02:02:12.174] 
+Import times for custom nodes:
+[2025-04-06 02:02:12.174]    0.0 seconds: /home/gongms/runpod_serverless_test/custom_nodes/websocket_image_save.py
+[2025-04-06 02:02:12.174]    0.4 seconds: /home/gongms/runpod_serverless_test/custom_nodes/comfyui-manager
+[2025-04-06 02:02:12.180]   11.4 seconds: /home/gongms/runpod_serverless_test/custom_nodes/ComfyUI-to-Python-Extension
+[2025-04-06 02:02:12.180] 
+[2025-04-06 02:02:12.267] model weight dtype torch.float8_e4m3fn, manual cast: torch.bfloat16
+[2025-04-06 02:02:12.267] model_type FLUX
+[2025-04-06 02:02:14.157] Using pytorch attention in VAE
+[2025-04-06 02:02:14.158] Using pytorch attention in VAE
+[2025-04-06 02:02:14.237] VAE load device: cuda:0, offload device: cpu, dtype: torch.bfloat16
+[2025-04-06 02:02:14.548] CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[2025-04-06 02:02:15.789] Token indices sequence length is longer than the specified maximum sequence length for this model (82 > 77). Running this sequence through the model will result in indexing errors
+[2025-04-06 02:02:15.791] Requested to load FluxClipModel_
+[2025-04-06 02:02:16.482] loaded completely 22606.6125 4777.53759765625 True
+[2025-04-06 02:02:17.407] Requested to load Flux
+[2025-04-06 02:02:19.583] loaded completely 17642.6444375 11350.067443847656 True
+[2025-04-06 02:02:32.124] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.60it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.61it/s]
+[2025-04-06 02:02:32.342] Requested to load AutoencodingEngine
+[2025-04-06 02:02:32.421] Cannot connect to comfyregistry.
+[2025-04-06 02:02:32.431] loaded completely 2709.98681640625 159.87335777282715 True
+[2025-04-06 02:02:32.646] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2025-04-06 02:02:33.193] [ComfyUI-Manager] All startup tasks have been completed.
+[2025-04-06 02:02:33.785] runpod-worker-comfy - image generation is done
+[2025-04-06 02:02:33.790] runpod-worker-comfy - /workspace/output/ComfyUI_00009_.png
+[2025-04-06 02:02:33.790] runpod-worker-comfy - the image does not exist in the output folder
+[2025-04-06 02:02:33.823] DEBUG  | local_test | Handler output: {'status': 'error', 'message': 'the image does not exist in the specified output folder: /workspace/output/ComfyUI_00009_.png', 'refresh_worker': False}
+[2025-04-06 02:02:33.830] DEBUG  | local_test | run_job return: {'output': {'status': 'error', 'message': 'the image does not exist in the specified output folder: /workspace/output/ComfyUI_00009_.png'}}
+[2025-04-06 02:02:33.830] INFO   | Job local_test completed successfully.
+[2025-04-06 02:02:33.830] INFO   | Job result: {'output': {'status': 'error', 'message': 'the image does not exist in the specified output folder: /workspace/output/ComfyUI_00009_.png'}}
+[2025-04-06 02:02:33.830] INFO   | Local testing complete, exiting.
